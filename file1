@@ -1,0 +1,10 @@
+mkdir newdir
+cd newdir
+git init
+touch file1
+git add file1
+git commit -m "lab1"
+git remote add origin git@github.com:AmlAbdellatif/lab1.git
+git branch -M main
+git push origin main 
+~                    
